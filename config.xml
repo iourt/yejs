@@ -24,5 +24,8 @@
         <allow-intent href="itms-apps:*" />
     </platform>
 
-     <preference name="Fullscreen" value="true" />
+    <preference name="Fullscreen" value="true" />
+
+    <!-- 禁止滚动和回弹的UIWebView -->
+    <preference name="DisallowOverscroll" value="true" />
 </widget>
